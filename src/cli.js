@@ -4,7 +4,7 @@ import formatCode from '.';
 
 const filePath = process.argv[2];
 if(!filePath){
-    // console.error('Please provide a file path');
+    console.error('Please provide a file path');
     process.exit(1);
 }
 const fullPath = path.resolve(filePath);
