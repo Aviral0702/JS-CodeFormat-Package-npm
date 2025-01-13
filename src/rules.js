@@ -13,4 +13,4 @@ function applyQuotesRule(path, useSingleQuotes = true) {
   }
 }
 
-export default {applyVariableDeclarationRule, applyQuotesRule};
+export {applyVariableDeclarationRule, applyQuotesRule};

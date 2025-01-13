@@ -1,6 +1,6 @@
 import parseCode from './parser.js';
 import traverseCode from './traverse.js';
-import generateCode from './formatter.js';
+import generateCode from './generator.js';
 
 function formatCode(inputCode,options = {useSingleQuotes: true}) {
   //parse the code

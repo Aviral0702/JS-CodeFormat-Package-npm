@@ -6,3 +6,4 @@ function generateCode(ast) {
     compact: false,
   }).code;
 }
+export default generateCode;
